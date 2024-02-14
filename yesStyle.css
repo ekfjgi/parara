@@ -1,0 +1,14 @@
+
+.header_text {
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.gif_container {
+    display: flex;
+    margin-left: 750px;
+}

@@ -1,0 +1,51 @@
+
+.header_text {
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.btn {
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    background-color: darkred;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 40px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.gif_container {
+    display: flex;
+    margin-left: 750px;
+}
+
+/* Position the "No" button absolutely within body */
+#noButton {
+    position: absolute;
+    margin-left: 10px;
+    transition: 0.5s;
+    background-color:black
+    /* Smooth movement */
+}
+#yesButton {
+    position: absolute;
+    right: 950px;
+}
